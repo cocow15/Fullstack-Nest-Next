@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #358d8f;
+    
+  }
+  
+  .container h1 {
+    color: white;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons p {
+    margin: 10px;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #60f9fc;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .buttons a:hover {
+    background-color: #34d5dc;
+  }
+  

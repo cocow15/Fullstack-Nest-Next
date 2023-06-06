@@ -1,0 +1,36 @@
+.cardContent {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.cardContent .cardTitle:hover {
+  background-color: #60f9fc;
+  color: black;
+} 
+

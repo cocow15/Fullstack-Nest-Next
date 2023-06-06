@@ -1,0 +1,58 @@
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.cardContent h3 {
+  font-size: 20px;
+  color: #000;
+  margin-right: 10px;
+}
+
+.cardTitle {
+  font-weight: bold;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  flex-grow: 1;
+}
+
+.cardContent .cardActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editButton,
+.deleteButton {
+  background-color: #49BBBD;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.deleteButton {
+  background-color: #E93030;
+}
+
+.editButton:hover {
+  background-color: #60f9fc;
+  color: black;
+}
+
+.deleteButton:hover {
+  background-color: #fb7979;
+  color: black;
+}
